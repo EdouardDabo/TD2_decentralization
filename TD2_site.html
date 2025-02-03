@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vilain Site Web</title>
+    <style>
+        body {
+            background-color: lime;
+            font-family: "Comic Sans MS", cursive, sans-serif;
+            text-align: center;
+            color: red;
+        }
+        h1 {
+            text-shadow: 3px 3px yellow;
+            font-size: 50px;
+        }
+        .button-container {
+            margin-top: 50px;
+        }
+        button {
+            background-color: pink;
+            color: blue;
+            font-size: 24px;
+            border: 5px dashed black;
+            padding: 20px;
+            cursor: pointer;
+            margin: 20px;
+        }
+        button:hover {
+            background-color: orange;
+            transform: rotate(10deg);
+        }
+    </style>
+</head>
+<body>
+    <h1>Bienvenue sur ce site affreux !</h1>
+    <div class="button-container">
+        <button onclick="alert('Tu as cliqué sur un bouton inutile !')">Bouton 1</button>
+        <button onclick="alert('Encore un clic inutile !')">Bouton 2</button>
+        <button onclick="alert('Pourquoi continues-tu ?')">Bouton 3</button>
+    </div>
+</body>
+</html>
